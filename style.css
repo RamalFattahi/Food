@@ -20,6 +20,21 @@ header {
 header .imgbox {
   width: 40px;
 }
+header .btn {
+  color: white;
+  display: flex;
+  display: none;
+  background-color: #74bebc;
+  font-weight: 700;
+}
+header .btn h5 {
+  cursor: pointer;
+  font-size: 18px;
+}
+header .btn .icon {
+  margin: 3px 0 0 8px;
+  cursor: pointer;
+}
 header nav a {
   font-size: 20px;
   color: #8c8999;
@@ -31,6 +46,9 @@ header nav .home-color {
 @media screen and (max-width: 992px) {
   header nav {
     display: none;
+  }
+  header .btn {
+    display: flex;
   }
 }
 
